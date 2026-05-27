@@ -87,7 +87,6 @@
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | single | [ˈsɪŋɡl] | adj. |
 | 2 | rate | [reɪt] | n. |
 | 3 | vary | [ˈveri] | v. |
@@ -180,7 +179,6 @@ Room rates vary depending upon / on:
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | reservation | [ˌrezəˈveɪʃən] | n. (reserve v.) |
 | 2 | currently | [ˈkɜːrəntli] | adv. |
 | 3 | available | [əˈveɪləbl] | adj. |
@@ -290,7 +288,6 @@ You can also answer:
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | book | [bʊk] | v. (booking n.) |
 | 2 | double | [ˈdʌbl] | adj. |
 | 3 | confirm | [kənˈfɜːrm] | v. |
@@ -432,7 +429,6 @@ You can also answer:
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | sign | [saɪn] | n. |
 | 2 | flight | [flaɪt] | n. |
 | 3 | ride | [raɪd] | n. |
@@ -542,7 +538,6 @@ You can also answer:
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | trunk | [trʌŋk] | n. |
 | 2 | doorman | [ˈdɔːrmən] | n. |
 | 3 | assist | [əˈsɪst] | v. (assistance n.) |
@@ -615,7 +610,6 @@ You can also answer:
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | lobby | [ˈlɑːbi] | n. |
 | 2 | storage | [ˈstɔːrɪdʒ] | n. (store v.) |
 | 3 | suggest | [səˈdʒest] | v. (suggestion n.) |
@@ -781,7 +775,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | receptionist | [rɪˈsepʃənɪst] | n. |
 | 2 | registration | [ˌredʒɪˈstreɪʃən] | n. |
 | 3 | certainly | [ˈsɜːrtənli] | adv. |
@@ -860,7 +853,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | valuables | [ˈvæljuəblz] | n. (valuable adj.) |
 | 2 | safe | [seɪf] | n. |
 | 3 | secure | [sɪˈkjʊr] | adj. |
@@ -944,7 +936,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | message | [ˈmesɪdʒ] | n. |
 | 2 | necessary | [ˈnesɪˌseri] | adj. |
 | 3 | reschedule | [riːˈskedʒuːl] | v. |
@@ -1092,7 +1083,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 ### Unit 4 Vocabulary — Room Amenities
 
 | # | Item | Pronunciation |
-|---|------|--------------|
 | 1 | closet | [ˈklɑːzɪt] |
 | 2 | dresser | [ˈdresər] |
 | 3 | nightstand (night table) | [ˈnaɪtˌstænd] |
@@ -1118,7 +1108,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | approach | [əˈproʊtʃ] | v. |
 | 2 | stuff | [stʌf] | n. |
 | 3 | pleasure | [ˈpleʒər] | n. |
@@ -1207,7 +1196,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | luxurious | [lʌɡˈʒʊriəs] | adj. |
 | 2 | briefly | [ˈbriːfli] | adv. |
 | 3 | equip | [ɪˈkwɪp] | v. (equipment n.) |
@@ -1299,7 +1287,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | state-of-the-art | [ˌsteɪtəvðiˈɑːrt] | adj. |
 | 2 | videoconference | [ˌvɪdioʊˈkɑːnfərəns] | v. |
 | 3 | audiovisual | [ˌɔːdioʊˈvɪʒuəl] | adj. |
@@ -1479,7 +1466,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 #### Key Vocabulary
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | state-of-the-art | [ˌsteɪtəvðiˈɑːrt] | adj. |
 | 2 | videoconference | [ˌvɪdɪəʊˈkɒnfərəns] | v. |
 | 3 | audiovisual | [ˌɔːdɪəʊˈvɪʒuəl] | adj. |
@@ -1599,7 +1585,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 #### A Guest Might Request…
 
 | # | Item | Pronunciation |
-|---|------|---------------|
 | 1 | hanger | [ˈhæŋə(r)] |
 | 2 | clothes brush | [kləʊz brʌʃ] |
 | 3 | dental floss | [ˈdentl flɒs] |
@@ -1622,7 +1607,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 #### A Guest Might Want These Cleaned…
 
 | # | Item | Pronunciation |
-|---|------|---------------|
 | 1 | sweater | [ˈswetə(r)] |
 | 2 | peacoat | [ˈpiːkəʊt] |
 | 3 | dress pants | [dres pænts] |
@@ -1694,7 +1678,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 #### Key Vocabulary (Scenes I–II)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | extra | [ˈekstrə] | adj. |
 | 2 | tube | [tjuːb] | n. |
 | 3 | inconvenience | [ˌɪnkənˈviːnɪəns] | n. |
@@ -1810,7 +1793,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 #### Key Vocabulary (Scenes III–IV)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | Laundry Department | [ˈlɔːndrɪ dɪˈpɑːrtmənt] | n. |
 | 2 | straight | [streɪt] | adv. |
 | 3 | return | [rɪˈtɜːrn] | v. |
@@ -1942,7 +1924,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 #### Key Vocabulary (Scenes V–VI)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | Switchboard | [ˈswɪtʃbɔːrd] | n. |
 | 2 | complicated | [ˈkɒmplɪkeɪtɪd] | adj. |
 | 3 | extend | [ɪkˈstend] | v. |
@@ -2084,7 +2065,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 #### Traffic Signs
 
 | # | Sign | Pronunciation |
-|---|------|---------------|
 | 1 | airport | [ˈeərpɔːrt] |
 | 2 | ferry | [ˈferɪ] |
 | 3 | bus station | [bʌs ˈsteɪʃən] |
@@ -2148,7 +2128,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 #### Key Vocabulary (Scene I)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | basement | [ˈbeɪsmənt] | n. |
 | 2 | stairs | [stɜːrz] | n. |
 | 3 | direct | [dəˈrekt] | v. *(directions n.)* |
@@ -2251,7 +2230,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 #### Key Vocabulary (Scene II)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | specific | [spɪˈsɪfɪk] | adj. |
 | 2 | mall | [mɑːl] | n. |
 | 3 | familiar | [fəˈmɪlɪə(r)] | adj. |
@@ -2354,7 +2332,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 #### Key Vocabulary (Scene III)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | sight | [saɪt] | n. |
 | 2 | bored | [bɔːrd] | adj. |
 | 3 | worth | [wɜːrθ] | adj. *(worthy adj.)* |
@@ -2556,7 +2533,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 #### Key Vocabulary (Scene I)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | concierge | [ˌkɒnsɪˈeəʒ] | n. |
 | 2 | itinerary | [aɪˈtɪnərərɪ] | n. |
 | 3 | budget | [ˈbʌdʒɪt] | n. |
@@ -2659,7 +2635,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 #### Key Vocabulary (Scene II)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | anniversary | [ˌænəˈvɜːrsərɪ] | n. |
 | 2 | wedding | [ˈwedɪŋ] | n. |
 | 3 | cuisine | [kwɪˈziːn] | n. |
@@ -2761,7 +2736,6 @@ By the window / in a private room / in the nonsmoking area / in a booth / at the
 #### Key Vocabulary (Scene III)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | rental | [ˈrentl] | n. *(rent v.)* |
 | 2 | dock | [dɒk] | n. |
 | 3 | attraction | [əˈtrækʃən] | n. |
@@ -2973,7 +2947,6 @@ By the window / in a private room / in the nonsmoking area / in a booth / at the
 #### Key Vocabulary (Scenes I–II)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | complain | [kəmˈpleɪn] | v. *(complaint n.)* |
 | 2 | first-rate | [ˈfɜːrstreɪt] | adj. |
 | 3 | immediately | [ɪˈmiːdrətlɪ] | adv. |
@@ -3086,7 +3059,6 @@ By the window / in a private room / in the nonsmoking area / in a booth / at the
 #### Key Vocabulary (Scenes III–IV)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | sink | [sɪŋk] | n. |
 | 2 | clog | [klɒɡ] | v. *(clog-clogged-clogged)* |
 | 3 | flush | [flʌʃ] | v. |
@@ -3189,7 +3161,6 @@ By the window / in a private room / in the nonsmoking area / in a booth / at the
 #### Key Vocabulary (Scene V)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | mess | [mes] | n. |
 | 2 | headwaiter | [ˌhedˈweɪtə(r)] | n. |
 | 3 | spill | [spɪl] | v. |
