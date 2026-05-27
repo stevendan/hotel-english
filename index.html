@@ -343,7 +343,10 @@
           <h2>Hotel English — Units 1–4</h2>
           <p>Chuyển đổi nhanh giữa các bài học bằng menu hoặc danh sách.</p>
         </div>
-        <select id="lessonJump" aria-label="Chọn bài học"></select>
+        <div style="display:flex;gap:.5rem;align-items:center;">
+          <select id="lessonJump" aria-label="Chọn bài học"></select>
+          <select id="componentSelect" aria-label="Chọn phần" style="display:none; min-width:200px;"></select>
+        </div>
       </div>
       <article id="content"></article>
       <p class="footer-note">Nội dung này được load cứng từ file Markdown gốc và hiển thị trực tiếp trong HTML.</p>
@@ -499,46 +502,137 @@
       const contentElement = document.getElementById('content');
       const toc = document.getElementById('toc');
       const lessonJump = document.getElementById('lessonJump');
+      const componentSelect = document.getElementById('componentSelect');
       toc.innerHTML = '';
       lessonJump.innerHTML = '';
+      componentSelect.innerHTML = '';
+      componentSelect.style.display = 'none';
 
-      const headings = Array.from(contentElement.querySelectorAll('h2, h3'));
-      headings.forEach((heading) => {
-        const anchor = heading.id;
+      // Collect units (h2) and their child headings (h3/h4)
+      const units = Array.from(contentElement.querySelectorAll('h2'));
+      const unitMap = {};
+
+      units.forEach((unit) => {
+        const anchor = unit.id;
+        // gather sub-headings until next h2
+        const subs = [];
+        let el = unit.nextElementSibling;
+        while (el && el.tagName !== 'H2') {
+          if (el.tagName === 'H3' || el.tagName === 'H4') {
+            subs.push({ id: el.id, text: el.textContent, level: el.tagName });
+          }
+          el = el.nextElementSibling;
+        }
+        unitMap[anchor] = subs;
+
+        // build toc unit entry with expandable sublist
+        const unitDiv = document.createElement('div');
+        unitDiv.className = 'toc-unit';
+
         const link = document.createElement('a');
         link.href = `#${anchor}`;
-        link.textContent = heading.textContent;
-        link.className = heading.tagName === 'H3' ? 'level-3' : 'level-2';
+        link.dataset.anchor = anchor;
+        link.className = 'level-2';
+        link.textContent = unit.textContent;
+
+        const arrow = document.createElement('span');
+        arrow.className = 'toc-arrow';
+        arrow.textContent = subs.length ? '›' : '';
+        link.appendChild(arrow);
+
         link.addEventListener('click', (event) => {
           event.preventDefault();
           document.getElementById(anchor).scrollIntoView({ behavior: 'smooth', block: 'start' });
           document.querySelectorAll('.toc a.active').forEach((item) => item.classList.remove('active'));
           link.classList.add('active');
+          // toggle expanded state
+          if (subs.length) {
+            const isExpanded = unitDiv.classList.toggle('expanded');
+            // populate componentSelect when expanded
+            if (isExpanded) {
+              populateComponents(anchor);
+            }
+          } else {
+            componentSelect.style.display = 'none';
+          }
           if (window.innerWidth <= 760) {
             document.getElementById('sidebar').classList.remove('open');
           }
         });
-        toc.appendChild(link);
 
-        const option = document.createElement('option');
-        option.value = anchor;
-        option.textContent = heading.tagName === 'H3' ? `    ${heading.textContent}` : heading.textContent;
-        lessonJump.appendChild(option);
+        unitDiv.appendChild(link);
+
+        const sublist = document.createElement('div');
+        sublist.className = 'toc-sublist';
+        const inner = document.createElement('div');
+        inner.className = 'toc-sublist-inner';
+        subs.forEach((s) => {
+          const a = document.createElement('a');
+          a.href = `#${s.id}`;
+          a.className = 'level-3';
+          a.textContent = s.text;
+          a.addEventListener('click', (ev) => {
+            ev.preventDefault();
+            document.getElementById(s.id).scrollIntoView({ behavior: 'smooth', block: 'start' });
+            document.querySelectorAll('.toc a.active').forEach((item) => item.classList.remove('active'));
+            a.classList.add('active');
+            if (window.innerWidth <= 760) document.getElementById('sidebar').classList.remove('open');
+          });
+          inner.appendChild(a);
+        });
+        sublist.appendChild(inner);
+        unitDiv.appendChild(sublist);
+
+        toc.appendChild(unitDiv);
+
+        // add to lessonJump select
+        const opt = document.createElement('option');
+        opt.value = anchor;
+        opt.textContent = unit.textContent;
+        lessonJump.appendChild(opt);
       });
 
-      if (headings.length > 0) {
-        lessonJump.selectedIndex = 0;
-        lessonJump.addEventListener('change', () => {
-          const anchor = lessonJump.value;
-          if (anchor) {
-            document.getElementById(anchor).scrollIntoView({ behavior: 'smooth', block: 'start' });
-          }
-        });
+      function populateComponents(unitAnchor) {
+        const subs = unitMap[unitAnchor] || [];
+        componentSelect.innerHTML = '';
+        if (subs.length) {
+          subs.forEach((s) => {
+            const o = document.createElement('option');
+            o.value = s.id;
+            o.textContent = s.text;
+            componentSelect.appendChild(o);
+          });
+          componentSelect.style.display = 'inline-block';
+          componentSelect.selectedIndex = 0;
+        } else {
+          componentSelect.style.display = 'none';
+        }
       }
 
-      const firstLink = toc.querySelector('a');
-      if (firstLink) {
-        firstLink.classList.add('active');
+      lessonJump.addEventListener('change', () => {
+        const anchor = lessonJump.value;
+        if (!anchor) return;
+        document.getElementById(anchor).scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // mark active link
+        document.querySelectorAll('.toc a.active').forEach((item) => item.classList.remove('active'));
+        const link = document.querySelector(`.toc a.level-2[data-anchor="${anchor}"]`);
+        if (link) link.classList.add('active');
+        // populate components
+        populateComponents(anchor);
+      });
+
+      componentSelect.addEventListener('change', () => {
+        const id = componentSelect.value;
+        if (id) document.getElementById(id).scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+
+      // initialize first unit selection
+      if (lessonJump.options.length > 0) {
+        lessonJump.selectedIndex = 0;
+        const first = lessonJump.value;
+        populateComponents(first);
+        const firstLink = document.querySelector('.toc a.level-2');
+        if (firstLink) firstLink.classList.add('active');
       }
     }
 
