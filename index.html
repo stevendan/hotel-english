@@ -441,6 +441,9 @@
             <option value="13">Unit 13 – Emergencies</option>
             <option value="14">Unit 14 – Job Interviewing</option>
           </select>
+          <select id="partSelect" aria-label="Chọn part" style="min-width:180px;">
+            <option value="">— Chọn part —</option>
+          </select>
         </div>
       </div>
       <article id="content"></article>
@@ -694,6 +697,17 @@
       });
     }
 
+    function buildPartSelect(contentEl) {
+      const partSelect = document.getElementById('partSelect');
+      partSelect.innerHTML = '<option value="">— Chọn part —</option>';
+      contentEl.querySelectorAll('h3').forEach(h3 => {
+        const opt = document.createElement('option');
+        opt.value = h3.id;
+        opt.textContent = h3.textContent;
+        partSelect.appendChild(opt);
+      });
+    }
+
     async function loadUnit(unitNum) {
       const loadingMsg = document.getElementById('loadingMsg');
       const contentEl = document.getElementById('content');
@@ -705,6 +719,7 @@
         const md = await res.text();
         contentEl.innerHTML = injectTrackButtons(renderMarkdown(md));
         buildNavigation();
+        buildPartSelect(contentEl);
         // Update labels
         const firstH1 = contentEl.querySelector('h1');
         const unitLabel = firstH1 ? firstH1.textContent : 'Unit ' + unitNum;
@@ -790,6 +805,14 @@
       const unitSelect = document.getElementById('unitSelect');
       unitSelect.addEventListener('change', () => {
         loadUnit(unitSelect.value);
+      });
+      const partSelect = document.getElementById('partSelect');
+      partSelect.addEventListener('change', () => {
+        const id = partSelect.value;
+        if (!id) return;
+        const target = document.getElementById(id);
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        partSelect.value = '';
       });
       loadUnit(1);
     }
