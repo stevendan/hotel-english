@@ -398,6 +398,10 @@
     @media (max-width: 480px) {
       .audio-bar { gap: 0.5rem; padding: 0.5rem 0.75rem; }
       .audio-bar-title { display: none; }
+      /* Force 16px font-size on interactive elements to prevent iOS Safari auto-zoom */
+      input, button, select, textarea, .track-btn {
+        font-size: 16px !important;
+      }
     }
   </style>
 </head>
