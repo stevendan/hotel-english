@@ -339,9 +339,8 @@ function initAudioBar() {
 function resetIOSZoom() {
   const vp = document.querySelector('meta[name=viewport]');
   if (!vp) return;
-  const original = vp.getAttribute('content');
-  vp.setAttribute('content', original + ',maximum-scale=1');
-  setTimeout(() => vp.setAttribute('content', original), 100);
+  vp.setAttribute('content', 'width=device-width, initial-scale=1, maximum-scale=1');
+  setTimeout(() => vp.setAttribute('content', 'width=device-width, initial-scale=1'), 400);
 }
 
 function init() {
