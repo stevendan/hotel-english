@@ -318,6 +318,84 @@
       .sidebar-header button { width: 100%; }
       #content { padding: 1.25rem 1.25rem; }
     }
+
+    /* Track play buttons */
+    .track-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      background: #2563eb;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      padding: 0.3rem 0.85rem 0.3rem 0.7rem;
+      font-size: 0.8rem;
+      font-family: inherit;
+      font-style: normal;
+      font-weight: 500;
+      cursor: pointer;
+      vertical-align: middle;
+      transition: background 0.15s, transform 0.1s;
+      line-height: 1.5;
+      min-height: 32px;
+      touch-action: manipulation;
+      user-select: none;
+    }
+    .track-btn:hover { background: #1d4ed8; }
+    .track-btn:active { transform: scale(0.96); }
+    .track-btn.playing { background: #dc2626; }
+    .track-icon { font-size: 0.7rem; line-height: 1; }
+
+    /* Floating audio bar */
+    .audio-bar {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      background: #1b2d4f;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.55rem 1rem;
+      z-index: 200;
+      box-shadow: 0 -3px 18px rgba(0,0,0,.3);
+      transform: translateY(100%);
+      transition: transform .3s ease;
+    }
+    .audio-bar.visible { transform: translateY(0); }
+    .audio-bar-title {
+      font-size: 0.8rem;
+      color: #93c5fd;
+      white-space: nowrap;
+      flex-shrink: 0;
+      font-weight: 500;
+    }
+    #mainAudio {
+      flex: 1;
+      min-width: 0;
+      height: 36px;
+      accent-color: #3b82f6;
+    }
+    .audio-close-btn {
+      background: rgba(255,255,255,.15);
+      border: none;
+      color: #fff;
+      border-radius: 50%;
+      width: 32px; height: 32px;
+      font-size: 1rem;
+      cursor: pointer;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background .15s;
+      touch-action: manipulation;
+    }
+    .audio-close-btn:hover { background: rgba(255,255,255,.27); }
+    body.audio-active { padding-bottom: 58px; }
+    @media (max-width: 480px) {
+      .audio-bar { gap: 0.5rem; padding: 0.5rem 0.75rem; }
+      .audio-bar-title { display: none; }
+    }
   </style>
 </head>
 <body>
@@ -356,6 +434,9 @@
             <option value="9">Unit 9</option>
             <option value="10">Unit 10</option>
             <option value="11">Unit 11</option>
+            <option value="12">Unit 12</option>
+            <option value="13">Unit 13</option>
+            <option value="14">Unit 14</option>
           </select>
           <select id="lessonJump" aria-label="Chọn bài học"></select>
           <select id="componentSelect" aria-label="Chọn phần" style="display:none; min-width:200px;"></select>
@@ -364,6 +445,13 @@
       <article id="content"></article>
       <p class="footer-note" id="loadingMsg">Đang tải nội dung...</p>
     </section>
+  </div>
+
+  <!-- Floating audio player -->
+  <div class="audio-bar" id="audioBar">
+    <span class="audio-bar-title" id="audioBarTitle">♪ Track —</span>
+    <audio id="mainAudio" controls></audio>
+    <button class="audio-close-btn" id="audioClose" aria-label="Đóng">✕</button>
   </div>
 
   <script>
@@ -676,7 +764,7 @@
         const res = await fetch('md/Unit' + unitNum + '.md');
         if (!res.ok) throw new Error('HTTP ' + res.status);
         const md = await res.text();
-        contentEl.innerHTML = renderMarkdown(md);
+        contentEl.innerHTML = injectTrackButtons(renderMarkdown(md));
         buildNavigation();
         // Update labels
         const firstH1 = contentEl.querySelector('h1');
@@ -691,9 +779,75 @@
       }
     }
 
+    function injectTrackButtons(html) {
+      return html.replace(/\(Track (\d+)\)/g, (_, num) => {
+        const padded = String(num).padStart(2, '0');
+        const src = `mp3/Track ${padded}.mp3`;
+        return `<button class="track-btn" data-src="${src}" data-track="${num}"><span class="track-icon">▶</span> Track ${num}</button>`;
+      });
+    }
+
+    function initAudioBar() {
+      const bar = document.getElementById('audioBar');
+      const audio = document.getElementById('mainAudio');
+      const barTitle = document.getElementById('audioBarTitle');
+      const closeBtn = document.getElementById('audioClose');
+
+      function setButtonState(track, playing) {
+        document.querySelectorAll(`.track-btn[data-track="${track}"]`).forEach(btn => {
+          btn.classList.toggle('playing', playing);
+          const icon = btn.querySelector('.track-icon');
+          if (icon) icon.textContent = playing ? '⏸' : '▶';
+        });
+      }
+
+      function clearAllButtons() {
+        document.querySelectorAll('.track-btn').forEach(btn => {
+          btn.classList.remove('playing');
+          const icon = btn.querySelector('.track-icon');
+          if (icon) icon.textContent = '▶';
+        });
+      }
+
+      document.addEventListener('click', e => {
+        const btn = e.target.closest('.track-btn');
+        if (!btn) return;
+        const src = btn.dataset.src;
+        const track = btn.dataset.track;
+        const isSame = audio.dataset.currentTrack === track;
+
+        if (isSame && !audio.paused) {
+          audio.pause();
+        } else {
+          clearAllButtons();
+          audio.src = encodeURI(src);
+          audio.dataset.currentTrack = track;
+          barTitle.textContent = `♪ Track ${track}`;
+          bar.classList.add('visible');
+          document.body.classList.add('audio-active');
+          audio.play().catch(() => {});
+        }
+      });
+
+      audio.addEventListener('play', () => setButtonState(audio.dataset.currentTrack, true));
+      audio.addEventListener('pause', () => setButtonState(audio.dataset.currentTrack, false));
+      audio.addEventListener('ended', () => setButtonState(audio.dataset.currentTrack, false));
+
+      closeBtn.addEventListener('click', () => {
+        audio.pause();
+        audio.removeAttribute('src');
+        audio.load();
+        delete audio.dataset.currentTrack;
+        bar.classList.remove('visible');
+        document.body.classList.remove('audio-active');
+        clearAllButtons();
+      });
+    }
+
     function init() {
       initTocSearch();
       initSidebarToggle();
+      initAudioBar();
       const unitSelect = document.getElementById('unitSelect');
       unitSelect.addEventListener('change', () => {
         loadUnit(unitSelect.value);
