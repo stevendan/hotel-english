@@ -336,13 +336,24 @@ function initAudioBar() {
   });
 }
 
+function resetIOSZoom() {
+  const vp = document.querySelector('meta[name=viewport]');
+  if (!vp) return;
+  const original = vp.getAttribute('content');
+  vp.setAttribute('content', original + ',maximum-scale=1');
+  setTimeout(() => vp.setAttribute('content', original), 100);
+}
+
 function init() {
   initTocSearch();
   initSidebarToggle();
   initAudioBar();
   const unitSelect = document.getElementById('unitSelect');
   unitSelect.addEventListener('change', () => {
-    loadUnit(unitSelect.value);
+    const val = unitSelect.value;
+    unitSelect.blur();
+    resetIOSZoom();
+    loadUnit(val);
   });
   const partSelect = document.getElementById('partSelect');
   partSelect.addEventListener('change', () => {
@@ -351,6 +362,7 @@ function init() {
     const target = document.getElementById(id);
     if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     partSelect.value = '';
+    partSelect.blur();
   });
   loadUnit(1);
 }
