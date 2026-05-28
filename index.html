@@ -317,6 +317,9 @@
       .sidebar-header { flex-wrap: wrap; }
       .sidebar-header button { width: 100%; }
       #content { padding: 1.25rem 1.25rem; }
+      /* iOS Safari tự zoom khi font-size < 16px — buộc 16px để tắt zoom */
+      .topbar select,
+      .sidebar-search input { font-size: 1rem; }
     }
 
     /* Track play buttons */
