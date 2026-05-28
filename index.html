@@ -422,24 +422,22 @@
           <p>Chọn unit bên dưới để tải nội dung bài học.</p>
         </div>
         <div style="display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;">
-          <select id="unitSelect" aria-label="Chọn unit" style="min-width:130px;">
-            <option value="1">Unit 1</option>
-            <option value="2">Unit 2</option>
-            <option value="3">Unit 3</option>
-            <option value="4">Unit 4</option>
-            <option value="5">Unit 5</option>
-            <option value="6">Unit 6</option>
-            <option value="7">Unit 7</option>
-            <option value="8">Unit 8</option>
-            <option value="9">Unit 9</option>
-            <option value="10">Unit 10</option>
-            <option value="11">Unit 11</option>
-            <option value="12">Unit 12</option>
-            <option value="13">Unit 13</option>
-            <option value="14">Unit 14</option>
+          <select id="unitSelect" aria-label="Chọn unit" style="min-width:200px;">
+            <option value="1">Unit 1 – Phone Inquiries</option>
+            <option value="2">Unit 2 – Drivers, Doormen &amp; Bellhops</option>
+            <option value="3">Unit 3 – Reception</option>
+            <option value="4">Unit 4 – Amenities</option>
+            <option value="5">Unit 5 – Requests for Services</option>
+            <option value="6">Unit 6 – Directions</option>
+            <option value="7">Unit 7 – Tour Planning</option>
+            <option value="8">Unit 8 – Handling Complaints</option>
+            <option value="9">Unit 9 – Restaurant / Bar</option>
+            <option value="10">Unit 10 – Business Center / Events</option>
+            <option value="11">Unit 11 – Small Talk</option>
+            <option value="12">Unit 12 – Paying the Bill</option>
+            <option value="13">Unit 13 – Emergencies</option>
+            <option value="14">Unit 14 – Job Interviewing</option>
           </select>
-          <select id="lessonJump" aria-label="Chọn bài học"></select>
-          <select id="componentSelect" aria-label="Chọn phần" style="display:none; min-width:200px;"></select>
         </div>
       </div>
       <article id="content"></article>
@@ -601,31 +599,21 @@
     function buildNavigation() {
       const contentElement = document.getElementById('content');
       const toc = document.getElementById('toc');
-      const lessonJump = document.getElementById('lessonJump');
-      const componentSelect = document.getElementById('componentSelect');
       toc.innerHTML = '';
-      lessonJump.innerHTML = '';
-      componentSelect.innerHTML = '';
-      componentSelect.style.display = 'none';
 
-      // Collect units (h2) and their child headings (h3/h4)
       const units = Array.from(contentElement.querySelectorAll('h2'));
-      const unitMap = {};
 
       units.forEach((unit) => {
         const anchor = unit.id;
-        // gather sub-headings until next h2
         const subs = [];
         let el = unit.nextElementSibling;
         while (el && el.tagName !== 'H2') {
           if (el.tagName === 'H3' || el.tagName === 'H4') {
-            subs.push({ id: el.id, text: el.textContent, level: el.tagName });
+            subs.push({ id: el.id, text: el.textContent });
           }
           el = el.nextElementSibling;
         }
-        unitMap[anchor] = subs;
 
-        // build toc unit entry with expandable sublist
         const unitDiv = document.createElement('div');
         unitDiv.className = 'toc-unit';
 
@@ -645,16 +633,7 @@
           document.getElementById(anchor).scrollIntoView({ behavior: 'smooth', block: 'start' });
           document.querySelectorAll('.toc a.active').forEach((item) => item.classList.remove('active'));
           link.classList.add('active');
-          // toggle expanded state
-          if (subs.length) {
-            const isExpanded = unitDiv.classList.toggle('expanded');
-            // populate componentSelect when expanded
-            if (isExpanded) {
-              populateComponents(anchor);
-            }
-          } else {
-            componentSelect.style.display = 'none';
-          }
+          if (subs.length) unitDiv.classList.toggle('expanded');
           if (window.innerWidth <= 760) {
             document.getElementById('sidebar').classList.remove('open');
           }
@@ -684,55 +663,12 @@
         unitDiv.appendChild(sublist);
 
         toc.appendChild(unitDiv);
-
-        // add to lessonJump select
-        const opt = document.createElement('option');
-        opt.value = anchor;
-        opt.textContent = unit.textContent;
-        lessonJump.appendChild(opt);
       });
 
-      function populateComponents(unitAnchor) {
-        const subs = unitMap[unitAnchor] || [];
-        componentSelect.innerHTML = '';
-        if (subs.length) {
-          subs.forEach((s) => {
-            const o = document.createElement('option');
-            o.value = s.id;
-            o.textContent = s.text;
-            componentSelect.appendChild(o);
-          });
-          componentSelect.style.display = 'inline-block';
-          componentSelect.selectedIndex = 0;
-        } else {
-          componentSelect.style.display = 'none';
-        }
-      }
-
-      lessonJump.addEventListener('change', () => {
-        const anchor = lessonJump.value;
-        if (!anchor) return;
-        document.getElementById(anchor).scrollIntoView({ behavior: 'smooth', block: 'start' });
-        // mark active link
-        document.querySelectorAll('.toc a.active').forEach((item) => item.classList.remove('active'));
-        const link = document.querySelector(`.toc a.level-2[data-anchor="${anchor}"]`);
-        if (link) link.classList.add('active');
-        // populate components
-        populateComponents(anchor);
-      });
-
-      componentSelect.addEventListener('change', () => {
-        const id = componentSelect.value;
-        if (id) document.getElementById(id).scrollIntoView({ behavior: 'smooth', block: 'start' });
-      });
-
-      // initialize first unit selection
-      if (lessonJump.options.length > 0) {
-        lessonJump.selectedIndex = 0;
-        const first = lessonJump.value;
-        populateComponents(first);
-        const firstLink = document.querySelector('.toc a.level-2');
-        if (firstLink) firstLink.classList.add('active');
+      const firstLink = document.querySelector('.toc a.level-2');
+      if (firstLink) {
+        firstLink.classList.add('active');
+        firstLink.closest('.toc-unit').classList.add('expanded');
       }
     }
 
