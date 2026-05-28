@@ -29,7 +29,7 @@
 
 ### Picture Dictionary — Finding Your Way
 
-> **Track 26**
+> *(Track 26)*
 
 #### Service and Facility Symbols
 
@@ -82,7 +82,7 @@
 
 ### Scene I — The Fitness Center Is in the Basement
 
-> **Track 27**
+> *(Track 27)*
 
 *A guest asks for directions.*  
 **G:** Guest · **F:** Front Desk Clerk
@@ -191,7 +191,7 @@
 
 ### Scene II — I'd Like to Do Some Shopping
 
-> **Track 28**
+> *(Track 28)*
 
 *A guest asks about how to get to a department store.*  
 **G:** Guest · **F:** Front Desk Clerk
@@ -291,7 +291,7 @@
 
 ### Scene III — Checking Out the Sights
 
-> **Track 29**
+> *(Track 29)*
 
 *A guest asks about places around the hotel.*  
 **F:** Front Desk Clerk · **G:** Guest
@@ -393,7 +393,7 @@
 
 ### Listening Practice (U6)
 
-> **Track 30**
+> *(Track 30)*
 
 **Part A** — *Listen to Conversation A and answer the following questions.*
 

@@ -197,7 +197,7 @@ Which hotel department would you make each of the following complaints to?
 
 ### Menu Practice: At Lisa's (pp. 88–89)
 
-**Track 41**
+*(Track 41)*
 
 #### Lisa's Restaurant
 
@@ -330,7 +330,7 @@ Which hotel department would you make each of the following complaints to?
 
 ### Scene I: Is My Table Ready? (pp. 90–91)
 
-**Track 42**
+*(Track 42)*
 
 **Setting:** A guest calls the hotel restaurant to reserve a table.
 **Characters:** **H** = Host | **G** = Guest
@@ -442,7 +442,7 @@ Read the following situation. Then call the Savory Garden and make a reservation
 
 ### Scene II: Working at the Bar (pp. 92–93)
 
-**Track 43**
+*(Track 43)*
 
 **Setting:** Mr. Diep waits at the bar for a table at the Savory Garden.
 **Characters:** **H** = Host | **G** = Guest | **B** = Bartender
@@ -570,7 +570,7 @@ Word bank: long day / on the rocks / on tap / popcorn / in the mood for / barten
 
 ### Scene III: Taking a Restaurant Order (pp. 94–95)
 
-**Track 44**
+*(Track 44)*
 
 **Setting:** Mr. Douglas arrives for dinner at his favorite restaurant.
 **Characters:** **H** = Host | **G** = Guest | **S** = Server
@@ -686,7 +686,7 @@ Read the server's notes below. Then work with a partner to practice taking / giv
 
 ### Listening Practice — Unit 9 (p. 96)
 
-**Track 45**
+*(Track 45)*
 
 #### Part A
 *Listen to Conversation A and answer the following questions.*

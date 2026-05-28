@@ -28,7 +28,7 @@
 
 ### Hotel Talk: Seeing the Beauty of Taiwan (pp. 108–109)
 
-**Track 51**
+*(Track 51)*
 
 **Characters:** **C** = Concierge | **G** = Guest
 
@@ -72,7 +72,7 @@
 
 ### Scene I: Checking Out a Night Market (pp. 110–111)
 
-**Track 52**
+*(Track 52)*
 
 **Setting:** After checking in, a guest approaches the concierge.
 **Characters:** **C** = Concierge | **G** = Guest
@@ -169,7 +169,7 @@ Look at the following ingredients for rice dumplings. Practice introducing the d
 
 ### Scene II: At the Lantern Festival (pp. 112–113)
 
-**Track 53**
+*(Track 53)*
 
 **Setting:** A guest wants to know about the Kaohsiung Lantern Festival.
 **Characters:** **G** = Guest | **C** = Concierge
@@ -280,7 +280,7 @@ The following sentences are about tour options. Match the two parts.
 
 ### Scene III: Fun in Kenting (pp. 114–115)
 
-**Track 54**
+*(Track 54)*
 
 **Setting:** The concierge helps a guest with his travel plans.
 **Characters:** **C** = Concierge | **G** = Guest
@@ -377,6 +377,36 @@ The following sentences are about tour options. Match the two parts.
 **C — Role Play (p. 115)**
 
 Student A is the hotel concierge. Student B is the guest. Student A needs to find out what student B is interested in and recommend a local tourist attraction.
+
+---
+
+### Listening Practice — Unit 11
+
+*(Track 55)*
+
+**Part A** — *Listen to Conversation A and choose the best response to each question.*
+
+1. 
+2. 
+3. 
+4. 
+
+**Part B** — *Listen to Conversation B. Then read the statements below and answer true or false.*
+
+1. T☐ F☐ 
+2. T☐ F☐ 
+3. T☐ F☐ 
+4. T☐ F☐ 
+5. T☐ F☐ 
+
+**Part C** — *Listen to Conversation C. Then fill in the blanks with the words you hear.*
+
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
 
 ---
 

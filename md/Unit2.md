@@ -23,6 +23,8 @@
 
 ---
 
+*(Track 6)*
+
 ### Unit 2 Vocabulary — Luggage
 
 - **luggage tag** [ˈlʌɡɪdʒ] [tæɡ]
@@ -52,6 +54,8 @@
 - point out
 
 ---
+
+*(Track 7)*
 
 **Dialogue — Airport Pickup (Hull Arms Hotel)**
 
@@ -166,6 +170,8 @@
 
 ---
 
+*(Track 8)*
+
 **Dialogue — Guest Arriving by Car (Hull Arms Hotel)**
 
 *A guest drives up to the front door of the hotel.*
@@ -235,6 +241,8 @@
 - in luck
 
 ---
+
+*(Track 9)*
 
 **Scene III — Guest Leaving for Airport**
 

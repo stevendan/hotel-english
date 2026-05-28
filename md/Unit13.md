@@ -21,6 +21,8 @@
 3. What items are usually found in a first aid kit?
 4. What equipment does a hotel need to deal with emergencies?
 
+*(Track 61)*
+
 ### First Aid Kit Vocabulary
 
 | Item | Pronunciation |
@@ -34,6 +36,8 @@
 | iodine | [ˈaɪəˌdaɪn] |
 
 ---
+
+*(Track 62)*
 
 ### Scene I: Stay Calm, Please
 
@@ -95,6 +99,8 @@
 - We're sorry to say that the hotel will be closed for repairs.
 
 ---
+
+*(Track 63)*
 
 ### Scene II & III: May I Have Your Attention?
 
@@ -165,6 +171,8 @@
 - We need you to take a deep breath, ma'am / sir.
 
 ---
+
+*(Track 64)*
 
 ### Scene IV: Maybe You Should See a Doctor
 

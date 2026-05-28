@@ -28,7 +28,7 @@
 
 ### Hotel Talk — Helping Guests Make Arrangements
 
-> **Track 31** | **G:** Guest · **C:** Concierge
+> *(Track 31)* | **G:** Guest · **C:** Concierge
 
 **G:** Is there any place worth seeing around here?
 
@@ -68,7 +68,7 @@
 
 ### Scene I — Taking a City Tour
 
-> **Track 32**
+> *(Track 32)*
 
 *A guest asks the concierge about arranging a tour.*  
 **G:** Guest · **C:** Concierge
@@ -172,7 +172,7 @@
 
 ### Scene II — It's Our Anniversary
 
-> **Track 33**
+> *(Track 33)*
 
 *A concierge recommends a restaurant to a guest.*  
 **C:** Concierge · **G:** Guest
@@ -273,7 +273,7 @@ By the window / in a private room / in the nonsmoking area / in a booth / at the
 
 ### Scene III — Biking in Kaohsiung
 
-> **Track 34**
+> *(Track 34)*
 
 *A concierge gives information on bike **rentals**.*  
 **C:** Concierge · **G:** Guest
@@ -374,7 +374,7 @@ By the window / in a private room / in the nonsmoking area / in a booth / at the
 
 ### Listening Practice (U7)
 
-> **Track 35**
+> *(Track 35)*
 
 **Part A** — *Listen to Conversation A and choose the best response to each question.*
 

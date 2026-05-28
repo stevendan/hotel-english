@@ -28,7 +28,7 @@
 
 ### Hotel Talk — Common Complaints
 
-> **Track 36**
+> *(Track 36)*
 
 #### Booking Problems
 
@@ -65,7 +65,7 @@
 
 ### Scene I–II — What's the Matter with this Hotel?
 
-> **Track 37**
+> *(Track 37)*
 
 #### SCENE I
 
@@ -186,7 +186,7 @@
 
 ### Scene III–IV — We'll Send It Up
 
-> **Track 38**
+> *(Track 38)*
 
 #### SCENE III
 
@@ -290,7 +290,7 @@
 
 ### Scene V — Clean Up this Mess
 
-> **Track 39**
+> *(Track 39)*
 
 *A waiter serves a guest in the hotel restaurant.*  
 **G:** Guest · **W:** Waiter · **H:** Headwaiter

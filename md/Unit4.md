@@ -23,6 +23,8 @@
 
 ---
 
+*(Track 16)*
+
 ### Unit 4 Vocabulary — Room Amenities
 
 | # | Item | Pronunciation |
@@ -67,6 +69,8 @@
 - Go ahead.
 
 ---
+
+*(Track 17)*
 
 **Dialogue — Bellhop Shows Guest to Room (Lotus Hotel)**
 
@@ -160,6 +164,8 @@
 
 ---
 
+*(Track 18)*
+
 **Dialogue — Introducing In-Room Facilities**
 
 *The bellhop introduces in-room facilities to a guest.*
@@ -246,6 +252,8 @@
 
 ---
 
+*(Track 19)*
+
 **Dialogue — Executive Suite Tour**
 
 *The bellhop shows Mr. Shaw around his room.*
@@ -312,6 +320,46 @@
 - Nonsmoking
 - King-sized
 - Balcony view / whirlpool tub / candlelit dinner / higher floor
+
+---
+
+---
+
+### Listening Practice — Unit 4
+
+*(Track 20)*
+
+**Part A** — Listen to Conversation A and answer the following questions.
+1. 
+2. 
+3. 
+4. 
+
+**Part B** — Multiple Choice
+
+1. 
+   - A. 
+   - B. 
+   - C. 
+   - D. 
+
+2. 
+   - A. 
+   - B. 
+   - C. 
+   - D. 
+
+3. 
+   - A. 
+   - B. 
+   - C. 
+   - D. 
+
+4. 
+   - A. 
+   - B. 
+   - C. 
+   - D. 
 
 ---
 
