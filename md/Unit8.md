@@ -116,7 +116,7 @@
 #### Key Vocabulary (Scenes I–II)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
+
 | 1 | complain | [kəmˈpleɪn] | v. *(complaint n.)* |
 | 2 | first-rate | [ˈfɜːrstreɪt] | adj. |
 | 3 | immediately | [ɪˈmiːdrətlɪ] | adv. |
@@ -167,7 +167,7 @@
 *Look at the customer survey form below. Practice making and responding to complaints with your partner.*
 
 | Guest Name: Peter Lewis | Room Number: 1245 | | | |
-|-------------------------|-------------------|---|---|---|
+
 | Issue | Very Satisfied | Satisfied | Dissatisfied | Very Dissatisfied |
 | Hot Water | | ✓ | | |
 | Room (Air Quality) | | | | ✓ |
@@ -229,7 +229,7 @@
 #### Key Vocabulary (Scenes III–IV)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
+
 | 1 | sink | [sɪŋk] | n. |
 | 2 | clog | [klɒɡ] | v. *(clog-clogged-clogged)* |
 | 3 | flush | [flʌʃ] | v. |
@@ -268,7 +268,6 @@
 **B. Useful Expressions — Asking What Happened**
 
 | Informal | Formal |
-|----------|--------|
 | What's wrong? | What seems to be the problem / matter? |
 | What's going on? | May I ask what the problem is? |
 | Is something wrong? | |
@@ -282,7 +281,6 @@
 *Read the information below. Practice complaining and responding with a partner.*
 
 | # | Guest Complaint | Response |
-|---|----------------|---------|
 | 1 | *(blank)* | We've already asked them to keep the noise down. |
 | 2 | We're not getting CNN on our TV. | *(blank)* |
 | 3 | *(blank)* | Please try to reset the room temperature with the control panel. Let me know if you're still having trouble. |
@@ -332,7 +330,7 @@
 #### Key Vocabulary (Scene V)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
+
 | 1 | mess | [mes] | n. |
 | 2 | headwaiter | [ˌhedˈweɪtə(r)] | n. |
 | 3 | spill | [spɪl] | v. |
@@ -383,7 +381,7 @@
 **Departments:** Front Desk · Housekeeping · Maintenance · Laundry · Room Service
 
 | # | Complaint | Department |
-|---|-----------|-----------|
+
 | 1 | My room wasn't made up this morning. | ________ |
 | 2 | I didn't get my wake-up call. | ________ |
 | 3 | My hamburger is cold. | ________ |

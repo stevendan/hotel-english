@@ -1,6 +1,8 @@
 {
     "chat.tools.terminal.autoApprove": {
         "Set-Content": true,
-        "Test-Path": true
+        "Test-Path": true,
+        "done": true,
+        "ForEach-Object": true
     }
 }

@@ -34,7 +34,6 @@
 #### Service and Facility Symbols
 
 | # | Symbol / Facility | Pronunciation |
-|---|------------------|---------------|
 | 1 | restaurant | [ˈrestərənt] |
 | 2 | bar | [bɑːr] |
 | 3 | outdoor swimming pool | [ˈaʊtdɔːr ˈswɪmɪŋ puːl] |
@@ -62,7 +61,6 @@
 #### Traffic Signs
 
 | # | Sign | Pronunciation |
-|---|------|---------------|
 | 1 | airport | [ˈeərpɔːrt] |
 | 2 | ferry | [ˈferɪ] |
 | 3 | bus station | [bʌs ˈsteɪʃən] |
@@ -126,7 +124,6 @@
 #### Key Vocabulary (Scene I)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | basement | [ˈbeɪsmənt] | n. |
 | 2 | stairs | [stɜːrz] | n. |
 | 3 | direct | [dəˈrekt] | v. *(directions n.)* |
@@ -164,7 +161,6 @@
 **B. Useful Expressions — Asking for / Giving Directions**
 
 | Asking for Directions | → | Giving Directions |
-|-----------------------|---|-------------------|
 | Where is the parking lot? | → | It's in back of / behind the hotel. |
 | Excuse me, how can I get to the gift shop? | → | It's at the end of the hallway. |
 | Can you please direct me to the restaurant? | → | Keep on walking along this hall. |
@@ -179,7 +175,7 @@
 *Read the floor plan below. Practice asking and answering questions about hotel rooms and facilities.*
 
 | Room / Shop | Floor |
-|-------------|-------|
+
 | Presidential Suite | Top Floor |
 | Executive King / Twin | 7th–9th Floors |
 | Standard King / Twin | 4th–6th Floors |
@@ -229,7 +225,6 @@
 #### Key Vocabulary (Scene II)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | specific | [spɪˈsɪfɪk] | adj. |
 | 2 | mall | [mɑːl] | n. |
 | 3 | familiar | [fəˈmɪlɪə(r)] | adj. |
@@ -332,7 +327,6 @@
 #### Key Vocabulary (Scene III)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | sight | [saɪt] | n. |
 | 2 | bored | [bɔːrd] | adj. |
 | 3 | worth | [wɜːrθ] | adj. *(worthy adj.)* |
@@ -383,7 +377,7 @@
 **C. Role Play — Transport Details** *(partially obscured in original)*
 
 | Transport | Details |
-|-----------|---------|
+
 | Taxi | Fare: around NT$250 / 25-minute drive |
 | Shuttle | Runs every hour from 7 am–10 pm / Complimentary service / 40-minute ride |
 | Subway | Buy tickets at … / Get off at Central Station |

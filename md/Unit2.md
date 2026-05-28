@@ -36,7 +36,7 @@
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
+
 | 1 | sign | [saɪn] | n. |
 | 2 | flight | [flaɪt] | n. |
 | 3 | ride | [raɪd] | n. |
@@ -135,7 +135,6 @@
 **Places of Interest — Must-Sees / Must-Dos**
 
 | Place | Highlights |
-|-------|-----------|
 | Mt. Yangming | Beautiful night view, flowers |
 | Green Island | Scuba diving, museums, beaches |
 
@@ -146,7 +145,7 @@
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
+
 | 1 | trunk | [trʌŋk] | n. |
 | 2 | doorman | [ˈdɔːrmən] | n. |
 | 3 | assist | [əˈsɪst] | v. (assistance n.) |
@@ -219,7 +218,7 @@
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
+
 | 1 | lobby | [ˈlɑːbi] | n. |
 | 2 | storage | [ˈstɔːrɪdʒ] | n. (store v.) |
 | 3 | suggest | [səˈdʒest] | v. (suggestion n.) |

@@ -59,7 +59,6 @@
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | single | [ˈsɪŋɡl] | adj. |
 | 2 | rate | [reɪt] | n. |
 | 3 | vary | [ˈveri] | v. |
@@ -135,7 +134,6 @@ Room rates vary depending upon / on:
 **Useful Expressions — Shuttle Bus**
 
 | Question | Answer |
-|----------|--------|
 | How often does the shuttle bus run / come? | It runs / comes every thirty minutes. |
 | When does the shuttle start running? | At 6:00 a.m. |
 | What time does the last shuttle bus leave? | The last shuttle bus leaves at midnight. |
@@ -152,7 +150,6 @@ Room rates vary depending upon / on:
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | reservation | [ˌrezəˈveɪʃən] | n. (reserve v.) |
 | 2 | currently | [ˈkɜːrəntli] | adv. |
 | 3 | available | [əˈveɪləbl] | adj. |
@@ -262,7 +259,6 @@ You can also answer:
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | book | [bʊk] | v. (booking n.) |
 | 2 | double | [ˈdʌbl] | adj. |
 | 3 | confirm | [kənˈfɜːrm] | v. |

@@ -56,7 +56,7 @@
 #### Key Vocabulary (p. 84)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
+
 | 1 | mess | [mes] | n. |
 | 2 | headwaiter | [ˌhedˈweɪtə(r)] | n. |
 | 3 | spill | [spɪl] | v. |
@@ -139,7 +139,6 @@ Which hotel department would you make each of the following complaints to?
 *Listen to Conversation B. Then read the statements below and answer true or false.*
 
 | # | T / F | Statement |
-|---|-------|-----------|
 | 1 | T / F | Ms. Wang complains to Room Service. |
 | 2 | T / F | Ms. Wang's sink and toilet are blocked up. |
 | 3 | T / F | The plumber should have come to Ms. Wang's room over an hour ago. |
@@ -215,7 +214,7 @@ Which hotel department would you make each of the following complaints to?
 **Appetizers**
 
 | Item | Price |
-|------|-------|
+
 | Buffalo wings (a basket of six) — *served with celery and blue cheese dip* | 325 |
 | French fries — *home cut and served fresh* | 180 |
 | Potato skins — *served with cheddar cheese and bacon* | 220 |
@@ -223,7 +222,7 @@ Which hotel department would you make each of the following complaints to?
 **Soups**
 
 | Item | Price |
-|------|-------|
+
 | Classic French onion | 160 |
 | Boston clam chowder | 130 |
 | Country vegetable | 120 |
@@ -232,14 +231,14 @@ Which hotel department would you make each of the following complaints to?
 **Salads**
 
 | Item | Price |
-|------|-------|
+
 | Caesar salad | 180 |
 | Garden salad — *topped with your choice of Italian, French, or Thousand Island dressing* | 150 |
 
 **Entrées**
 
 | Item | Price |
-|------|-------|
+
 | Sirloin steak (8 oz) — *all steaks served with a side salad and a baked potato or fries* | 800 |
 | BBQ ribs (half rack) | 580 |
 | BBQ ribs (full rack) — *slathered in barbecue sauce, served with onion rings or fries* | 980 |
@@ -250,7 +249,7 @@ Which hotel department would you make each of the following complaints to?
 **Desserts**
 
 | Item | Price |
-|------|-------|
+
 | Strawberry cheesecake | 120 |
 | Tiramisu | 150 |
 | Ice cream — *your choice of chocolate, vanilla, or cherry* | 120 |
@@ -262,7 +261,7 @@ Which hotel department would you make each of the following complaints to?
 **Local & Imported Beers**
 
 | Item | Price |
-|------|-------|
+
 | Taiwan beer (bottle) | 120 |
 | Heineken (bottle) | 140 |
 | Carlsberg (draft) | 180 |
@@ -271,7 +270,7 @@ Which hotel department would you make each of the following complaints to?
 **Wines**
 
 | Item | Price |
-|------|-------|
+
 | South African red wine (glass) | 220 |
 | Chilean red wine (glass) | 260 |
 | Californian white wine (glass) | 220 |
@@ -281,7 +280,7 @@ Which hotel department would you make each of the following complaints to?
 **Nonalcoholic Drinks**
 
 | Item | Price |
-|------|-------|
+
 | Fresh fruit juices (apple / orange / cranberry) | 120 |
 | Ginger ale | 50 |
 | Coke / Pepsi / Fanta | 50 |
@@ -291,7 +290,7 @@ Which hotel department would you make each of the following complaints to?
 **Spirits**
 
 | Item | Price |
-|------|-------|
+
 | Vodka | 300 |
 | Whiskey | 320 |
 | Cognac | 340 |
@@ -301,7 +300,7 @@ Which hotel department would you make each of the following complaints to?
 **Coffees and Teas (hot and iced)**
 
 | Item | Price |
-|------|-------|
+
 | Latte | 130 |
 | Espresso | 90 |
 | Cappuccino | 100 |
@@ -312,7 +311,6 @@ Which hotel department would you make each of the following complaints to?
 #### Additional Words (p. 88–89)
 
 | Word | Pronunciation | Definition |
-|------|---------------|------------|
 | appetizer | [ˈæpəˌtaɪzə(r)] | n. |
 | soup du jour | [ˌsuːp də ˈʒʊr] | soup of the day |
 | entrée | [ˈɒntreɪ] | n. |
@@ -378,7 +376,7 @@ Which hotel department would you make each of the following complaints to?
 #### Key Vocabulary (p. 90)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
+
 | 1 | host | [hoʊst] | n. (hostess n.) |
 | 2 | savory | [ˈseɪvərɪ] | adj. |
 | 3 | stand | [stænd] | v. |
@@ -502,7 +500,7 @@ Read the following situation. Then call the Savory Garden and make a reservation
 #### Key Vocabulary (p. 92)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
+
 | 1 | bar | [bɑːr] | n. |
 | 2 | bartender | [ˈbɑːrˌtendə(r)] | n. |
 | 3 | half | [hæf] | adj. |
@@ -624,7 +622,7 @@ Word bank: long day / on the rocks / on tap / popcorn / in the mood for / barten
 #### Key Vocabulary (p. 94)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
+
 | 1 | server | [ˈsɜːrvə(r)] | n. (serve v.) |
 | 2 | momentarily | [ˌmoʊmənˈterəlɪ] | adv. |
 | 3 | expect | [ɪkˈspekt] | v. |
@@ -712,7 +710,7 @@ Read the server's notes below. Then work with a partner to practice taking / giv
 *Listen to Conversation C. Then read the statements below and answer true or false.*
 
 | # | T / F | Statement |
-|---|-------|-----------|
+
 | 1 | T / F | The guest wants Thousand Island dressing with his salad. |
 | 2 | T / F | The guest orders a burger and a basket of fries for his entrée. |
 | 3 | T / F | The guest doesn't want to order a beverage. |

@@ -66,7 +66,6 @@
 #### Key Vocabulary — Scene I
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | position | [pəˈzɪʃən] | n. |
 | 2 | appointment | [əˈpɔɪntmənt] | n. |
 | 3 | knock | [nɒk] | v. |
@@ -158,7 +157,7 @@
 #### Key Vocabulary — Scene II
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
+
 | 1 | fluently | [ˈfluːəntli] | adv. |
 | 2 | communicate | [kəˈmjuːnɪˌkeɪt] | v. (communication n.) |
 | 3 | monthly | [ˈmʌnθli] | adj. |
@@ -229,7 +228,7 @@ Jennifer Yang
 #### Key Vocabulary — Scene III
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
+
 | 1 | advertise | [ˈædvərˌtaɪz] | v. (advertisement n.) |
 | 2 | enclose | [ɪnˈkloʊz] | v. (enclosure n.) |
 | 3 | successfully | [səkˈsesfəli] | adv. |
@@ -252,13 +251,11 @@ To find a position as a front desk clerk
 **Education**
 
 | Years | School | Degree |
-|-------|--------|--------|
 | 2004–2008 | National Kaohsiung Hospitality College | BA in Hotel Management |
 
 **Experience**
 
 | Period | Company | Position |
-|--------|---------|----------|
 | October 2008 | ABC Hotel, Taipei, Taiwan | Intern Housekeeper and Front Desk Clerk |
 | Summer 2006 | Ocean Department Store, Chungli, Taiwan | Part-time Store Clerk |
 
@@ -288,7 +285,6 @@ Outgoing, friendly, hardworking, flexible, responsible, reliable, honest, motiva
 #### Additional Words — Unit 14
 
 | Word | Pronunciation | Part of Speech |
-|------|--------------|----------------|
 | responsible | [rɪˈspɒnsəbl] | adj. |
 | all walks of life | [ɔːl] [wɔːks] [əv] [laɪf] | phrase |
 | major | [ˈmeɪdʒər] | n., v. |
@@ -362,7 +358,7 @@ Outgoing, friendly, hardworking, flexible, responsible, reliable, honest, motiva
 *What Liz and Will ordered:*
 
 | Item | Price |
-|------|-------|
+
 | Fish | NT$800 |
 | Juice | NT$100 (NT$50 × 2) |
 | Ice Cream | NT$125 |

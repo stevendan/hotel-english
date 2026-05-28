@@ -33,7 +33,6 @@
 #### Business Center Equipment
 
 | # | Item | Pronunciation |
-|---|------|---------------|
 | 1 | fax machine | [ˈfæksɪˌmiːʃiːn] |
 | 2 | laser printer | [ˈleɪzər] [ˈprɪntər] |
 | 3 | scanner | [ˈskænər] |
@@ -49,7 +48,6 @@
 #### Stationery Supplies
 
 | # | Item | Pronunciation |
-|---|------|---------------|
 | 1 | scissors | [ˈsɪzərz] |
 | 2 | stapler | [ˈsteɪplə(r)] |
 | 3 | eraser | [ɪˈreɪsə(r)] |
@@ -119,7 +117,7 @@
 #### Key Vocabulary (p. 100)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
+
 | 1 | attendant | [əˈtendənt] | n. |
 | 2 | locate | [ˈloʊˌkeɪt] | v. (location n.) |
 | 3 | entrance | [ˈentrəns] | n. |
@@ -239,7 +237,7 @@ Steps (to be ordered by student):
 #### Key Vocabulary (p. 102)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
+
 | 1 | event planner | [ɪˈvent] [ˈplænə(r)] | |
 | 2 | overnight | [ˈoʊvər ˌnaɪt] | adj. |
 | 3 | accommodation | [əˌkɒməˈdeɪʃən] | n. (accommodate v.) |
@@ -289,7 +287,7 @@ Steps (to be ordered by student):
 Read the information below. Then practice taking and making a reservation.
 
 | Field | Details |
-|-------|---------|
+
 | Name of Guest | Mr. Walter / Global Clothing Ltd. |
 | Room Type | Banquet room |
 | Event | Product launch |
@@ -352,7 +350,7 @@ Read the information below. Then practice taking and making a reservation.
 #### Key Vocabulary (p. 104)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
+
 | 1 | married | [ˈmærɪd] | adj. |
 | 2 | banquet | [ˈbæŋkwɪt] | n. |
 | 3 | congratulations | [kənˌɡrætʃəˈleɪʃənz] | n. (congratulate v.) |
@@ -447,7 +445,7 @@ Word bank: **① Four Seasons Hotel** | **② the ninth** | **③ marriage vows*
 *Listen to Conversation C. Then read the statements below and answer true or false.*
 
 | # | T / F | Statement |
-|---|-------|-----------|
+
 | 1 | T / F | The hotel has both regular and vegetarian menus. |
 | 2 | T / F | 380 people will attend the wedding. |
 | 3 | T / F | The hotel has a banquet room that holds 40 tables. |

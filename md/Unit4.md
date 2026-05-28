@@ -26,7 +26,6 @@
 ### Unit 4 Vocabulary — Room Amenities
 
 | # | Item | Pronunciation |
-|---|------|--------------|
 | 1 | closet | [ˈklɑːzɪt] |
 | 2 | dresser | [ˈdresər] |
 | 3 | nightstand (night table) | [ˈnaɪtˌstænd] |
@@ -52,7 +51,6 @@
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | approach | [əˈproʊtʃ] | v. |
 | 2 | stuff | [stʌf] | n. |
 | 3 | pleasure | [ˈpleʒər] | n. |
@@ -141,7 +139,6 @@
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | luxurious | [lʌɡˈʒʊriəs] | adj. |
 | 2 | briefly | [ˈbriːfli] | adv. |
 | 3 | equip | [ɪˈkwɪp] | v. (equipment n.) |
@@ -233,7 +230,6 @@
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | state-of-the-art | [ˌsteɪtəvðiˈɑːrt] | adj. |
 | 2 | videoconference | [ˌvɪdioʊˈkɑːnfərəns] | v. |
 | 3 | audiovisual | [ˌɔːdioʊˈvɪʒuəl] | adj. |

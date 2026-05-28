@@ -35,7 +35,7 @@
 #### A Guest Might Request…
 
 | # | Item | Pronunciation |
-|---|------|---------------|
+
 | 1 | hanger | [ˈhæŋə(r)] |
 | 2 | clothes brush | [kləʊz brʌʃ] |
 | 3 | dental floss | [ˈdentl flɒs] |
@@ -58,7 +58,7 @@
 #### A Guest Might Want These Cleaned…
 
 | # | Item | Pronunciation |
-|---|------|---------------|
+
 | 1 | sweater | [ˈswetə(r)] |
 | 2 | peacoat | [ˈpiːkəʊt] |
 | 3 | dress pants | [dres pænts] |
@@ -130,7 +130,7 @@
 #### Key Vocabulary (Scenes I–II)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
+
 | 1 | extra | [ˈekstrə] | adj. |
 | 2 | tube | [tjuːb] | n. |
 | 3 | inconvenience | [ˌɪnkənˈviːnɪəns] | n. |
@@ -171,7 +171,6 @@
 **B. Useful Expressions**
 
 | Guest Requests | Employee Responses |
-|----------------|-------------------|
 | May I have another blanket / an extra pair of slippers? | I'll send it / them up right away / right now / at once / immediately / without delay. |
 | Could you please change my bed sheets and empty the wastebasket? | Housekeeping will tidy up your room as soon as you step out. |
 | Would you have someone check the toilet / air-conditioning? | No problem. We'll send a maintenance worker right up. |
@@ -182,7 +181,6 @@
 **C. Giving the Time**
 
 | Clock | Ways to Say It |
-|-------|---------------|
 | 6:00 | It's six. / It's six o'clock. |
 | 6:05 | It's six-oh-five. |
 | 6:10 | It's six ten. |
@@ -246,7 +244,7 @@
 #### Key Vocabulary (Scenes III–IV)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
+
 | 1 | Laundry Department | [ˈlɔːndrɪ dɪˈpɑːrtmənt] | n. |
 | 2 | straight | [streɪt] | adv. |
 | 3 | return | [rɪˈtɜːrn] | v. |
@@ -378,7 +376,7 @@
 #### Key Vocabulary (Scenes V–VI)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
+
 | 1 | Switchboard | [ˈswɪtʃbɔːrd] | n. |
 | 2 | complicated | [ˈkɒmplɪkeɪtɪd] | adj. |
 | 3 | extend | [ɪkˈstend] | v. |
@@ -419,7 +417,7 @@
 *Pretend you're the operator. Practice responding to the following requests and direct the calls to the right departments.*
 
 | Request | Department |
-|---------|-----------|
+
 | I want a Continental breakfast for two. | → Front Desk |
 | My wife's dress needs dry-cleaning. | → Room Service |
 | My toilet won't flush. | → Housekeeping |

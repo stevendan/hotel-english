@@ -108,7 +108,6 @@
 #### Key Vocabulary (Scene I)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | concierge | [ˌkɒnsɪˈeəʒ] | n. |
 | 2 | itinerary | [aɪˈtɪnərərɪ] | n. |
 | 3 | budget | [ˈbʌdʒɪt] | n. |
@@ -211,7 +210,6 @@
 #### Key Vocabulary (Scene II)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | anniversary | [ˌænəˈvɜːrsərɪ] | n. |
 | 2 | wedding | [ˈwedɪŋ] | n. |
 | 3 | cuisine | [kwɪˈziːn] | n. |
@@ -313,7 +311,6 @@ By the window / in a private room / in the nonsmoking area / in a booth / at the
 #### Key Vocabulary (Scene III)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
 | 1 | rental | [ˈrentl] | n. *(rent v.)* |
 | 2 | dock | [dɒk] | n. |
 | 3 | attraction | [əˈtrækʃən] | n. |
@@ -347,7 +344,6 @@ By the window / in a private room / in the nonsmoking area / in a booth / at the
 **B. Words to Practice — All about Bike Rentals**
 
 | Agreements | Bicycles | Accessories | Security / Deposit |
-|------------|----------|-------------|-------------------|
 | rental contract | road bike | lock | cash |
 | terms | electric bike | bell | ID card |
 | full-coverage insurance | girls' bike | basket | passport |

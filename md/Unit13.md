@@ -24,7 +24,7 @@
 ### First Aid Kit Vocabulary
 
 | Item | Pronunciation |
-|------|--------------|
+
 | cold pack | [koʊld] [pæk] |
 | bandage | [ˈbændɪdʒ] |
 | aspirin | [ˈæspərɪn] |
@@ -71,7 +71,7 @@
 #### Key Vocabulary — Scene I
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
+
 | 1 | earthquake | [ˈɜːrθkweɪk] | n. |
 | 2 | guidebook | [ˈɡaɪdbʊk] | n. |
 | 3 | strike | [straɪk] | v. |
@@ -115,7 +115,6 @@
 #### Key Vocabulary — Scene II & III
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
 | 1 | announcement | [əˈnaʊnsmənt] | n. (announce v.) |
 | 2 | shove | [ʃʌv] | v. |
 | 3 | proceed | [prəˈsiːd] | v. |
@@ -224,7 +223,7 @@
 #### Key Vocabulary — Scene IV
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
+
 | 1 | dispense | [dɪˈspens] | v. |
 | 2 | chill | [tʃɪl] | n. |
 | 3 | serious | [ˈsɪəriəs] | adj. |

@@ -112,7 +112,7 @@
 #### Key Vocabulary (p. 110)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
+
 | 1 | stand | [stænd] | n. |
 | 2 | specialty | [ˈspeʃəltɪ] | n. |
 | 3 | mainly | [ˈmeɪnlɪ] | adv. |
@@ -150,7 +150,6 @@
 **B — Sentence Starters to Practice: Describing Food**
 
 | | | Options |
-|---|---|---------|
 | **①** It is | eaten / served | hot / cold / whole / frozen / warm / over ice / raw . . . |
 | **②** It is | topped / mixed | with | chocolate / nuts / cheese / fruit / garlic / onions / honey mustard sauce . . . |
 | **③** It is | made from / prepared with | ham and green peppers; chilis, onions, and different spices; ground beef and noodles, covered with cheese; eggplant and lamb, topped with tomato sauce. |
@@ -208,7 +207,7 @@ Look at the following ingredients for rice dumplings. Practice introducing the d
 #### Key Vocabulary (p. 112)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
+
 | 1 | lantern | [ˈlæntərn] | n. |
 | 2 | hold | [hoʊld] | v. (hold-held-held) |
 | 3 | fountain | [ˈfaʊntɪn] | n. |
@@ -270,7 +269,7 @@ Look at the following ingredients for rice dumplings. Practice introducing the d
 The following sentences are about tour options. Match the two parts.
 
 | Sentence beginnings | Sentence endings |
-|---------------------|------------------|
+
 | 1. If you go with family, . . . | ⓐ make sure that the driver turns on the meter. |
 | 2. It can get quite hot, so . . . | ⓑ I suggest that you get an early start. |
 | 3. You may take a taxi, but . . . | ⓒ they can get in for free. |
@@ -315,7 +314,7 @@ The following sentences are about tour options. Match the two parts.
 #### Key Vocabulary (p. 114)
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|---------------|----------------|
+
 | 1 | head | [hed] | v. |
 | 2 | heaven | [ˈhevən] | n. |
 | 3 | surfing | [ˈsɜːrfɪŋ] | n. (surf v.) |
@@ -384,7 +383,7 @@ Student A is the hotel concierge. Student B is the guest. Student A needs to fin
 ## Appendix — Notes on Extraction
 
 | Field | Details |
-|-------|---------|
+
 | Total PDF pages | 30 |
 | Unique content spreads | 15 (each spread duplicated in the PDF) |
 | Extraction method | Visual (rasterized at 150 DPI, read by vision model) |

@@ -33,7 +33,7 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
+
 | 1 | receptionist | [rɪˈsepʃənɪst] | n. |
 | 2 | registration | [ˌredʒɪˈstreɪʃən] | n. |
 | 3 | certainly | [ˈsɜːrtənli] | adv. |
@@ -112,7 +112,7 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
+
 | 1 | valuables | [ˈvæljuəblz] | n. (valuable adj.) |
 | 2 | safe | [seɪf] | n. |
 | 3 | secure | [sɪˈkjʊr] | adj. |
@@ -196,7 +196,7 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 **Key Vocabulary**
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
+
 | 1 | message | [ˈmesɪdʒ] | n. |
 | 2 | necessary | [ˈnesɪˌseri] | adj. |
 | 3 | reschedule | [riːˈskedʒuːl] | v. |
@@ -265,7 +265,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 **Useful Expressions — Handling Messages**
 
 | Situation | Phrases |
-|-----------|---------|
 | Taking a message | A: May I take a message? / B: No, that's not necessary. I'll call back later. |
 | Leaving a message | A: Would you like to leave a message? / B: Yes, please tell him that Bruce called. |
 | Guest not in room | A: Mr. Smith doesn't seem to be in his room right now. / B: Do you know when he'll be in? |
@@ -278,7 +277,6 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 **Sample Message Slip**
 
 | Field | Content |
-|-------|---------|
 | Guest Name | Mr. Nelson |
 | Guest Room # | 307 |
 | Caller Name | Lily Yang |

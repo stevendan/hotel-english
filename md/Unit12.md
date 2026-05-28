@@ -55,7 +55,7 @@
 #### Key Vocabulary — Scene I
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
+
 | 1 | bill | [bɪl] | n. |
 | 2 | total | [ˈtoʊtl] | n. |
 | 3 | double-check | [ˈdʌbl tʃek] | v. |
@@ -139,7 +139,7 @@
 #### Key Vocabulary — Scene III
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
+
 | 1 | cashier | [kæˈʃɪər] | n. |
 | 2 | even | [ˈiːvən] | adj. *(exact amount, no change)* |
 | 3 | receipt | [rɪˈsiːt] | n. |
@@ -196,7 +196,7 @@
 #### Key Vocabulary — Scene IV
 
 | # | Word | Pronunciation | Part of Speech |
-|---|------|--------------|----------------|
+
 | 1 | settle | [ˈsetl] | v. |
 | 2 | payment | [ˈpeɪmənt] | n. |
 | 3 | dry-clean | [ˌdraɪ ˈkliːn] | v. |
@@ -241,7 +241,7 @@
 Use the following bill to role-play a checkout scenario:
 
 | Item | Amount |
-|------|--------|
+
 | Standard single / two nights | $218.00 |
 | Three international calls | $39.23 |
 | Room Service: steak and fries | $12.99 |
@@ -297,7 +297,7 @@ Match the responses to the correct situations:
 Fill in the blanks with the matching country and currency:
 
 | # | Country | Currency |
-|---|---------|----------|
+
 | 1 | Japan | Japanese Yen |
 | 2 | Canada | Canadian Dollar |
 | 3 | India | Indian Rupee |
