@@ -86,41 +86,23 @@
 *F = Front Desk Clerk | C = Caller*
 
 > **F:** Hello. KHC Hotel. How may I help you?
->
 > **C:** I'd like some information about your hotel.
->
 > **F:** What would you like to know?
->
 > **C:** First, how much are your single rooms?
->
 > **F:** The rates vary depending upon the season and type of single. They can range from NT$4,000 to NT$6,000.
->
 > **C:** I see. Does that price include breakfast?
->
 > **F:** Usually. There are some special offers that don't, though.
->
 > **C:** Could you tell me about your facilities?
->
 > **F:** We have a 30-meter pool, with eight lanes. We also have a health center and spa.
->
 > **C:** Great! And what kinds of restaurants do you have?
->
 > **F:** We have a Chinese restaurant, a Japanese restaurant, and a buffet with both Eastern and Western food.
->
 > **C:** When are they open?
->
 > **F:** The Chinese and Japanese restaurants are open for lunch and dinner. The buffet serves three meals a day.
->
 > **C:** One more thing. Do you have a shuttle bus to the High Speed Rail?
->
 > **F:** Yes. It runs every hour from six a.m. to ten p.m.
->
 > **C:** Alright. Thank you.
->
 > **F:** You're welcome. If you need more information, please visit our Web site at www.khchotel.com. It's very comprehensive.
->
 > **C:** I've got it. Good-bye.
->
 > **F:** Good-bye.
 
 ---
@@ -179,49 +161,27 @@ Room rates vary depending upon / on:
 *F = Front Desk Clerk | C = Caller*
 
 > **F:** KHC Hotel. How can I help you?
->
 > **C:** I'm currently staying in Taipei, but I'm planning to visit Kaohsiung.
->
 > **F:** When will you arrive, sir?
->
 > **C:** On June 16th. Will there be any rooms available?
->
 > **F:** Hold on, please. *(After a second)* Yes, we still have some rooms available.
->
 > **C:** Great! I'd prefer a single room. Nonsmoking, please.
->
 > **F:** Alright, one single, nonsmoking room.
->
 > **C:** What's the rate for one night?
->
 > **F:** It's NT$2,700, plus a ten-percent room tax.
->
 > **C:** That'll be fine.
->
 > **F:** May I have your name, please?
->
 > **C:** Tony Liao. And how can I get to your hotel from Kaohsiung Airport?
->
 > **F:** Take Bus No. 69. Or you could take a taxi. It takes less than ten minutes.
->
 > **C:** Could you give me your address, please?
->
 > **F:** It's One Songho Road, Xiaogang District, Kaohsiung City. The phone number is 806-0505, and the area code is 07.
->
 > **C:** What if my friend wants to drive me there?
->
 > **F:** Take Freeway One and exit at Zhongshan Fourth Road. Go along for four blocks and turn left on Hongping Road. Are you with me?
->
 > **C:** Yes. Then what?
->
 > **F:** After three blocks, make a right on Boxue Road. The hotel is one block down Boxue. You can't miss it.
->
 > **C:** OK, I think I've got it.
->
 > **F:** I could e-mail you a map, if you'd like.
->
 > **C:** Thanks. That would be a lot of help.
->
 > **F:** No problem.
 
 ---
@@ -288,37 +248,21 @@ You can also answer:
 *F = Front Desk Clerk | C = Caller*
 
 > **F:** Taipei Sheraton. May I help you?
->
 > **C:** I want to book a double room. We'll be in Taipei on January 22nd, but I'm not sure how long we'll stay.
->
 > **F:** OK. But we can only confirm a room for you from the 22nd to the 28th. After that, we'll be fully booked.
->
 > **C:** Fully booked? Why's that?
->
 > **F:** The Taipei International Film Festival will be getting under way.
->
 > **C:** What if we want to stay past the 28th?
->
 > **F:** I'm afraid we'll be full. But we can always try to find another hotel for you.
->
 > **C:** Thanks. And could you tell me how much you charge per night?
->
 > **F:** NT$2,500 for a double.
->
 > **C:** Does the room come with a complimentary breakfast?
->
 > **F:** Yes, a free breakfast buffet is included in the room rate.
->
 > **C:** Alright. I want to make a reservation.
->
 > **F:** May I ask who the booking is for, please?
->
 > **C:** Mr. and Mrs. Smith.
->
 > **F:** And how can we contact you?
->
 > **C:** You can reach me at 0915-860-653.
->
 > **F:** OK. We're looking forward to your visit on January 22nd.
 
 ---

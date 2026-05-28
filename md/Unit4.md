@@ -78,37 +78,21 @@
 *B = Bellhop | G = Guest*
 
 > **B:** Good afternoon, Mr. Chen. Welcome to the Lotus Hotel. Is this your baggage?
->
 > **G:** Yes, that's my stuff.
->
 > **B:** Certainly, please follow me. I'll take you to your room now.
->
 > **G:** Thank you.
->
 > **B:** My name is Jacky. It's my pleasure to serve you. If you have any questions, please feel free to ask. *(The elevator stops.)* After you, Mr. Chen.
->
 > **G:** Thank you.
->
 > **B:** *(In the hallway)* This way, please. Here's your room, 1246. *(Jacky opens the door.)* Where should I put your baggage, Mr. Chen?
->
 > **G:** Just put it on the bed.
->
 > **B:** Certainly, Mr. Chen. May I introduce the guest room facilities now?
->
 > **G:** Go ahead.
->
 > **B:** The minibar is right over there, beside the TV. The remote control is on the TV. The bedside console enables you to control the radio and the lights. There is an electric razor outlet in the bathroom, if you need it.
->
 > **G:** *(Looks in the closet)* Is there any way I can get some more hangers?
->
 > **B:** Of course. Just dial 11 for Housekeeping.
->
 > **G:** Dial 11? OK, I've got it.
->
 > **B:** And there is a hotel brochure on the dresser. It includes a complete list of services and phone numbers.
->
 > **G:** Thank you for the information. I appreciate it.
->
 > **B:** You are welcome, Mr. Chen.
 
 ---
@@ -172,29 +156,17 @@
 *G = Guest | B = Bellhop*
 
 > **G:** Could you briefly run over the facilities in the room?
->
 > **B:** Certainly, Ms. Wu. This room is equipped with high-speed internet access, an all-weather temperature control system, a 29-inch wide-screen TV, and a voice message system.
->
 > **G:** Do you have direct dial service? I have to make a lot of calls, so I don't want to bother the operator all the time.
->
 > **B:** Yes, there's an international direct dial telephone in your room. We'll also give you a private phone number.
->
 > **G:** Good. *(Looking up)* What's that on the ceiling?
->
 > **B:** It's a cigarette-detecting device. We have one in every nonsmoking room.
->
 > **G:** A cigarette-detecting device? How does it work?
->
 > **B:** It will sprinkle water automatically when it detects smoke and heat.
->
 > **G:** OK, I see. There must be something special about this bed. It looks luxurious.
->
 > **B:** It is indeed. We give our guests only the best-quality mattresses and comforters. We also use 400-thread-count sheets.
->
 > **G:** The bedding sounds comfortable. I can't wait to go to sleep.
->
 > **B:** I hope you enjoy your stay at our hotel, Ms. Wu.
->
 > **G:** I'm sure I will.
 
 ---
@@ -260,27 +232,16 @@
 *G = Guest | B = Bellhop*
 
 > **G:** Could you tell me more about the facilities in this room?
->
 > **B:** Certainly, Mr. Shaw. The executive suite comes with state-of-the-art business equipment, including a fax machine and a color laser printer.
->
 > **G:** Am I able to videoconference through this room?
->
 > **B:** Yes. A screen, projector, whiteboard, and other audiovisual equipment can be provided if you need them. We also have conference rooms. I can book one for you.
->
 > **G:** That sounds good. Look at this view. I can see the river from here!
->
 > **B:** Yes, the view from the room is particularly good.
->
 > **G:** Oh, is there a full bathroom?
->
 > **B:** I was just going to mention that. The bathroom has both a separate bathtub and an enclosed shower area.
->
 > **G:** Is that a wet bar over there?
->
 > **B:** Yes, it is. It's fully stocked too. *(Mr. Shaw sits down.)* You're sitting on a sofa sleeper, Mr. Shaw. It pulls out.
->
 > **G:** Everything's perfect! Thank you.
->
 > **B:** It's my pleasure. Let me know if you need anything.
 
 ---

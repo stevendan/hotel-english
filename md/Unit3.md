@@ -62,33 +62,19 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 *R = Receptionist | G = Guest*
 
 > **R:** Good afternoon, ma'am. Checking in?
->
 > **G:** Yes. Am I too early?
->
 > **R:** No, not at all. Do you have a reservation?
->
 > **G:** Of course. It's under the name of Anne Woods.
->
 > **R:** Ms. Woods. Let me see. Here it is. You booked a single room and are going to stay for three nights, aren't you?
->
 > **G:** Yes, that's right, from August 1st to August 4th.
->
 > **R:** Would you please fill out this registration card? And I'll need your passport too.
->
 > **G:** Certainly. Here you are.
->
 > **R:** Thank you for your patience. Your room number is 801. Here's your key card. The bellhop will help you with your luggage.
->
 > **G:** Thank you. By the way, my company plans to send people down here on business in the future. I'd like to know if we can get a discount.
->
 > **R:** Long-staying or frequent guests can get a special rate. It can range from 10 percent to 30 percent, depending on terms.
->
 > **G:** I see.
->
 > **R:** I'll get our manager to call you. She'll set up a time to explain the details.
->
 > **G:** Alright. Thanks a lot.
->
 > **R:** No problem. Enjoy your stay.
 
 ---
@@ -142,27 +128,16 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 *R = Receptionist | G = Guest*
 
 > **R:** Front Desk. What can I do for you today, Mr. Stopps?
->
 > **G:** Well, my wife is traveling with a lot of jewelry. And to tell you the truth, we don't feel secure leaving it in the room because there isn't an in-room safe.
->
 > **R:** I can understand that. Would you like to use the hotel safe?
->
 > **G:** That would probably be a good idea.
->
 > **R:** Then could you please bring your valuables to the Front Desk?
->
 > **G:** The Front Desk? Doesn't your hotel have a safe we could use by request?
->
 > **R:** I'm sorry, but we don't, sir. However, let me assure you that there's nothing to worry about. Our safe is not only fireproof, but also guarded 24/7.
->
 > **G:** Alright, that sounds fine. Do I have to prepare anything?
->
 > **R:** No, you don't. But we'll need you to fill out some forms, including an itemized list of your valuables.
->
 > **G:** OK, that seems pretty easy. I'll be right down.
->
 > **R:** I'll see you in a few minutes. I hope this can help to put your mind at ease, Mr. Stopps.
->
 > **G:** Oh, it helps a lot. Thank you.
 
 ---
@@ -229,25 +204,15 @@ Confirmation: 41211334525 | In: June 24th | Out: June 27th | Nights: Three
 *G = Guest | R = Receptionist*
 
 > **G:** This is Eric Smith, in Room 105. Are there messages for me?
->
 > **R:** Could you hold while I check, please? *(A moment later)* A fax came in for you this afternoon. Do you want me to bring it up?
->
 > **G:** No, that's not necessary. I'll pick it up on my way out to dinner.
->
 > **R:** Alright, and your secretary left a message earlier today. Your meeting with Mr. Brown tomorrow has been rescheduled. She'll get back to you with the details.
->
 > **G:** Mr. Brown? OK, thanks.
->
 > **R:** Mr. Donald also called. He wants to invite you to a cocktail party at his place. Please let him know if you'll attend.
->
 > **G:** I will. While I've got you on the line, could you tell me how to retrieve my voice mail?
->
 > **R:** Sure. If you see a flashing red light on your phone, pick up the receiver and dial three. Would you like to set a security code so that nobody else in your room can access your calls?
->
 > **G:** No, that's OK. I'm staying by myself.
->
 > **R:** Very well. I'll see you on your way out to dinner.
->
 > **G:** Bye.
 
 ---

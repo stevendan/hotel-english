@@ -63,39 +63,22 @@
 *G = Guest | D = Driver*
 
 > **G:** Hi. I'm Dan Hopkins. I have a reservation at the Hull Arms Hotel.
->
 > **D:** Good afternoon, Mr. Hopkins. My name is Christian. I'll be driving you to the hotel.
->
 > **G:** Great.
->
 > **D:** Allow me to carry your bags, Mr. Hopkins.
->
 > **G:** Oh, thank you. It's been a long flight.
->
 > **D:** This way, please. The car is right over there.
->
 > *(Moments later)*
->
 > **D:** I'll put your bags in the back, and then we'll be ready.
->
 > *(Getting into the car)*
->
 > **D:** We're all set to go, Mr. Hopkins. It'll be about a 20-minute ride to the hotel. Have you visited Taipei before?
->
 > **G:** No, this is my first visit.
->
 > **D:** If you like, I could point out some places of interest as we go.
->
 > **G:** That would be nice.
->
 > **D:** On your right is Taipei 101. It's one of the tallest buildings in the world. If you have some time, you might want to go up to the top. The view from up there is spectacular, especially at night.
->
 > *(Arriving at the hotel)*
->
 > **D:** Well, I hope you enjoyed the ride, Mr. Hopkins. A bellhop will help you with your bags.
->
 > **G:** Thank you. *(Handing Christian a tip)*
->
 > **D:** Thank you, Mr. Hopkins.
 
 ---
@@ -178,35 +161,22 @@
 *D = Doorman | G = Guest | B = Bellhop*
 
 > **D:** Good evening. Welcome to the Hull Arms Hotel, sir. How may I assist you?
->
 > **G:** I'm checking in. Here are the keys to my car.
->
 > **D:** Do you have any bags in the trunk?
->
 > **G:** Yes, three.
->
 > **D:** Very well. The bellhop will take them in to the Front Desk.
->
 > **G:** Alright. Can you ask him to be careful with them? I have several fragile items inside one of them.
->
 > **B:** *(Coming over)* Of course, sir. I'll take good care of them.
->
 > **D:** Sir, I'm also going to get the valet to park your car in the garage.
->
 > **G:** Do I have to pay for parking?
->
 > **D:** No, parking is complimentary for our guests. *(Gesturing)* The Front Desk is right over there, sir.
->
 > **G:** Yeah, I see it.
 
 *(The bellhop brings the guest's bags to the Front Desk.)*
 
 > **B:** I could only find two pieces of luggage in your trunk, sir.
->
 > **G:** Oh, sorry. There's also a suit bag on the back seat. That one's kind of important.
->
 > **B:** Very well. I'll put these bags on a baggage cart. And I'll go back and get the suit bag while you're checking in.
->
 > **G:** No, not at all. I'll be back in a minute.
 
 ---
@@ -214,7 +184,6 @@
 **Sentence Patterns — "while"**
 
 > **Note:** *While* can also be used at the beginning of a clause to introduce information which contrasts with the information in the main clause.
->
 > Example: She'd like to eat Italian food, while he'd prefer Japanese.
 
 ---
@@ -250,25 +219,17 @@
 *B = Bellhop | G = Guest*
 
 > **B:** How may I help you, ma'am?
->
 > **G:** Yes. I'm going to take the shuttle to the airport.
->
 > **B:** The 1:20 p.m. shuttle?
->
 > **G:** Yes.
->
 > **B:** OK. Would you like me to look after your bags until the shuttle arrives?
->
 > **G:** Yes, that's very kind of you.
->
 > **B:** It's my pleasure, ma'am. Let me take them over to the storage area for you. I'll be right back with a claim tag.
->
 > **G:** Great.
 
 *(After a moment)*
 
 > **B:** Here's your claim tag, ma'am. I suggest you pick them up about ten minutes before the shuttle departs.
->
 > **G:** Alright. Thank you.
 
 ---
@@ -278,21 +239,13 @@
 *D = Doorman | G = Guest*
 
 > **G:** Good evening. I'd like to get a cab. Would you be able to hail one for me?
->
 > **D:** There's no need for that, ma'am. We have a taxi stand right outside.
->
 > **G:** But I'm in a hurry.
->
 > **D:** There are several taxis lined up in front of the hotel.
->
 > **G:** Well, then I'm in luck.
->
 > **D:** May I ask your destination? I don't think the driver can speak English.
->
 > **G:** I want to go to the Longshan Temple.
->
 > **D:** Of course. Please follow me, madam.
->
 > **G:** Thank you.
 
 ---
