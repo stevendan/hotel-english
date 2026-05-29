@@ -1,5 +1,5 @@
 (function () {
-  var SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzUE7CV4FILgZV475EDZsEuPfWHq2Gyva1iZQXYUErZ4UuZBZ5wsIidMUB5e8i76IQJvw/exec';
+  var SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyI_X-V9KimBBY4cyIEuXdA5kMBdZKHPULz6izhqICsvoyiHLJ1nL3QS67EiJvgTBV4Ew/exec';
   var LS_KEY = 'hotel_english_session';
 
   function detectInfo() {
