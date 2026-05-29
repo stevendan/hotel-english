@@ -3,15 +3,11 @@
   var LS_KEY = 'hotel_english_session';
   var LS_DEVICE_NAME = 'hotel_english_device_name';
 
-  function getDeviceName() {
+  function getDeviceName(deviceType, os, browser) {
     var name = localStorage.getItem(LS_DEVICE_NAME);
     if (!name) {
-      name = prompt('Vui lòng nhập tên thiết bị (hoặc bỏ trống để bỏ qua):', '');
-      if (name && name.trim()) {
-        localStorage.setItem(LS_DEVICE_NAME, name.trim());
-      } else {
-        localStorage.setItem(LS_DEVICE_NAME, '(Không có)');
-      }
+      name = deviceType + ' / ' + os + ' / ' + browser;
+      localStorage.setItem(LS_DEVICE_NAME, name);
     }
     return name;
   }
@@ -50,7 +46,7 @@
     else if (/Tablet|iPad/.test(ua))  deviceType = 'Tablet';
 
     return { os: os, browser: browser, deviceType: deviceType,
-             deviceName: getDeviceName(),
+             deviceName: getDeviceName(deviceType, os, browser),
              screenWidth: screen.width + 'x' + screen.height };
   }
 
