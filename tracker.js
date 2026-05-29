@@ -137,6 +137,20 @@
   });
 
   window.addEventListener('beforeunload', function () {
-    closeSession();
+    if (closed) return;
+    closed = true;
+
+    var t = new Date();
+    currentSession.timeClose = fmtTime(t);
+    currentSession.duration = Math.round((t.getTime() - currentSession._openMs) / 60000);
+    delete currentSession._openMs;
+
+    // Lưu vào localStorage
+    try { localStorage.setItem(LS_KEY, JSON.stringify(currentSession)); } catch (e) {}
+
+    // Dùng sendBeacon (được thiết kế cho beforeunload - đảm bảo gửi xong)
+    try {
+      navigator.sendBeacon(SCRIPT_URL, JSON.stringify(currentSession));
+    } catch (e) {}
   });
 })();
