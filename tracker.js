@@ -1,6 +1,20 @@
 (function () {
   var SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyI_X-V9KimBBY4cyIEuXdA5kMBdZKHPULz6izhqICsvoyiHLJ1nL3QS67EiJvgTBV4Ew/exec';
   var LS_KEY = 'hotel_english_session';
+  var LS_DEVICE_NAME = 'hotel_english_device_name';
+
+  function getDeviceName() {
+    var name = localStorage.getItem(LS_DEVICE_NAME);
+    if (!name) {
+      name = prompt('Vui lòng nhập tên thiết bị (hoặc bỏ trống để bỏ qua):', '');
+      if (name && name.trim()) {
+        localStorage.setItem(LS_DEVICE_NAME, name.trim());
+      } else {
+        localStorage.setItem(LS_DEVICE_NAME, '(Không có)');
+      }
+    }
+    return name;
+  }
 
   function detectInfo() {
     var ua = navigator.userAgent;
@@ -36,6 +50,7 @@
     else if (/Tablet|iPad/.test(ua))  deviceType = 'Tablet';
 
     return { os: os, browser: browser, deviceType: deviceType,
+             deviceName: getDeviceName(),
              screenWidth: screen.width + 'x' + screen.height };
   }
 
@@ -91,7 +106,8 @@
       date: fmtDate(t), timeOpen: fmtTime(t),
       timeClose: '', duration: '',
       deviceType: info.deviceType, os: info.os,
-      browser: info.browser, screenWidth: info.screenWidth,
+      browser: info.browser, deviceName: info.deviceName,
+      screenWidth: info.screenWidth,
       _openMs: t.getTime(),
       sentOk: false
     };
