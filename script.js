@@ -1,8 +1,9 @@
 
 const headingIds = {};
-const SCROLL_STATE_KEY = 'hotelEnglishScrollState';
+const STORAGE_KEY = 'hotelEnglishState';
 let currentUnit = 1;
 let scrollSavePending = false;
+let selectedAnchor = '';
 
 function toId(text) {
   const base = text.trim().toLowerCase().replace(/[^a-z0-9-￿]+/g, '-').replace(/^-+|-+$/g, '');
@@ -178,6 +179,8 @@ function buildNavigation() {
 
     link.addEventListener('click', (event) => {
       event.preventDefault();
+      selectedAnchor = anchor;
+      saveState();
       document.getElementById(anchor).scrollIntoView({ behavior: 'smooth', block: 'start' });
       document.querySelectorAll('.toc a.active').forEach((item) => item.classList.remove('active'));
       link.classList.add('active');
@@ -200,6 +203,8 @@ function buildNavigation() {
       a.textContent = s.text;
       a.addEventListener('click', (ev) => {
         ev.preventDefault();
+        selectedAnchor = s.id;
+        saveState();
         document.getElementById(s.id).scrollIntoView({ behavior: 'smooth', block: 'start' });
         document.querySelectorAll('.toc a.active').forEach((item) => item.classList.remove('active'));
         a.classList.add('active');
@@ -250,7 +255,7 @@ function buildPartSelect(contentEl) {
   });
 }
 
-function saveScrollPosition() {
+function saveState() {
   if (scrollSavePending) return;
   scrollSavePending = true;
   requestAnimationFrame(() => {
@@ -258,23 +263,37 @@ function saveScrollPosition() {
     const state = {
       unit: currentUnit,
       scrollTop: window.scrollY || window.pageYOffset,
+      anchor: selectedAnchor || '',
     };
-    localStorage.setItem(SCROLL_STATE_KEY, JSON.stringify(state));
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
   });
 }
 
-function restoreScrollPosition() {
-  const stored = localStorage.getItem(SCROLL_STATE_KEY);
-  if (!stored) return;
+function getSavedState() {
+  const stored = localStorage.getItem(STORAGE_KEY);
+  if (!stored) return null;
   try {
     const state = JSON.parse(stored);
-    if (state && typeof state.unit === 'number' && typeof state.scrollTop === 'number') {
-      if (state.unit === currentUnit) {
-        window.scrollTo(0, state.scrollTop);
-      }
-    }
+    return state && typeof state === 'object' ? state : null;
   } catch (err) {
-    console.warn('Không thể khôi phục vị trí cuộn:', err);
+    console.warn('Không thể đọc trạng thái lưu:', err);
+    return null;
+  }
+}
+
+function restoreState() {
+  const state = getSavedState();
+  if (!state || typeof state.unit !== 'number') return;
+  if (state.unit !== currentUnit) return;
+  if (state.anchor) {
+    const target = document.getElementById(state.anchor);
+    if (target) {
+      target.scrollIntoView();
+      return;
+    }
+  }
+  if (typeof state.scrollTop === 'number') {
+    window.scrollTo(0, state.scrollTop);
   }
 }
 
@@ -296,7 +315,7 @@ async function loadUnit(unitNum) {
     document.getElementById('currentUnitDesc').textContent = unitLabel;
     if (loadingMsg) loadingMsg.textContent = '';
     currentUnit = Number(unitNum);
-    restoreScrollPosition();
+    restoreState();
   } catch (err) {
     contentEl.innerHTML = '<p style="color:red;padding:2rem;">Không tải được Unit ' + unitNum + ': ' + err.message + '</p>';
     if (loadingMsg) loadingMsg.textContent = '';
@@ -382,23 +401,34 @@ function init() {
   initSidebarToggle();
   initAudioBar();
   const unitSelect = document.getElementById('unitSelect');
+  const storedState = getSavedState();
+  const startingUnit = storedState && typeof storedState.unit === 'number' ? storedState.unit : 1;
+  unitSelect.value = String(startingUnit);
+
   unitSelect.addEventListener('change', () => {
     const val = unitSelect.value;
     unitSelect.blur();
     resetIOSZoom();
+    currentUnit = Number(val);
+    selectedAnchor = '';
+    saveState();
     loadUnit(val);
   });
-  window.addEventListener('scroll', saveScrollPosition, { passive: true });
+  window.addEventListener('scroll', saveState, { passive: true });
   const partSelect = document.getElementById('partSelect');
   partSelect.addEventListener('change', () => {
     const id = partSelect.value;
     if (!id) return;
     const target = document.getElementById(id);
-    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (target) {
+      selectedAnchor = id;
+      saveState();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
     partSelect.value = '';
     partSelect.blur();
   });
-  loadUnit(1);
+  loadUnit(startingUnit);
 }
 
 window.addEventListener('DOMContentLoaded', init);
