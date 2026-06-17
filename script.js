@@ -1,5 +1,8 @@
 
 const headingIds = {};
+const SCROLL_STATE_KEY = 'hotelEnglishScrollState';
+let currentUnit = 1;
+let scrollSavePending = false;
 
 function toId(text) {
   const base = text.trim().toLowerCase().replace(/[^a-z0-9-￿]+/g, '-').replace(/^-+|-+$/g, '');
@@ -247,6 +250,34 @@ function buildPartSelect(contentEl) {
   });
 }
 
+function saveScrollPosition() {
+  if (scrollSavePending) return;
+  scrollSavePending = true;
+  requestAnimationFrame(() => {
+    scrollSavePending = false;
+    const state = {
+      unit: currentUnit,
+      scrollTop: window.scrollY || window.pageYOffset,
+    };
+    localStorage.setItem(SCROLL_STATE_KEY, JSON.stringify(state));
+  });
+}
+
+function restoreScrollPosition() {
+  const stored = localStorage.getItem(SCROLL_STATE_KEY);
+  if (!stored) return;
+  try {
+    const state = JSON.parse(stored);
+    if (state && typeof state.unit === 'number' && typeof state.scrollTop === 'number') {
+      if (state.unit === currentUnit) {
+        window.scrollTo(0, state.scrollTop);
+      }
+    }
+  } catch (err) {
+    console.warn('Không thể khôi phục vị trí cuộn:', err);
+  }
+}
+
 async function loadUnit(unitNum) {
   const loadingMsg = document.getElementById('loadingMsg');
   const contentEl = document.getElementById('content');
@@ -264,7 +295,8 @@ async function loadUnit(unitNum) {
     document.getElementById('topbarTitle').textContent = unitLabel;
     document.getElementById('currentUnitDesc').textContent = unitLabel;
     if (loadingMsg) loadingMsg.textContent = '';
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    currentUnit = Number(unitNum);
+    restoreScrollPosition();
   } catch (err) {
     contentEl.innerHTML = '<p style="color:red;padding:2rem;">Không tải được Unit ' + unitNum + ': ' + err.message + '</p>';
     if (loadingMsg) loadingMsg.textContent = '';
@@ -356,6 +388,7 @@ function init() {
     resetIOSZoom();
     loadUnit(val);
   });
+  window.addEventListener('scroll', saveScrollPosition, { passive: true });
   const partSelect = document.getElementById('partSelect');
   partSelect.addEventListener('change', () => {
     const id = partSelect.value;
