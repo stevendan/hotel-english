@@ -285,6 +285,8 @@ function initAudioBar() {
   const barTitle = document.getElementById('audioBarTitle');
   const closeBtn = document.getElementById('audioClose');
 
+  audio.loop = true;
+
   function setButtonState(track, playing) {
     document.querySelectorAll(`.track-btn[data-track="${track}"]`).forEach(btn => {
       btn.classList.toggle('playing', playing);
